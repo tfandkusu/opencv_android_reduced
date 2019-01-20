@@ -166,8 +166,8 @@ class Builder:
             BUILD_TESTS="OFF",
             BUILD_PERF_TESTS="OFF",
             BUILD_DOCS="OFF",
-            BUILD_ANDROID_EXAMPLES="NO", # If YES, build failed.
-            INSTALL_ANDROID_EXAMPLES="NO",  # If YES, build failed.
+            BUILD_ANDROID_EXAMPLES="OFF", # If ON, build failed.
+            INSTALL_ANDROID_EXAMPLES="OFF",  # If ON, build failed.
             BUILD_LIST="core,imgcodecs,imgproc,java" # Added
         )
 
