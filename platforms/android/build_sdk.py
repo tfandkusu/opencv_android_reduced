@@ -166,8 +166,9 @@ class Builder:
             BUILD_TESTS="OFF",
             BUILD_PERF_TESTS="OFF",
             BUILD_DOCS="OFF",
-            BUILD_ANDROID_EXAMPLES="ON",
-            INSTALL_ANDROID_EXAMPLES="ON",
+            BUILD_ANDROID_EXAMPLES="NO", # If YES, build failed.
+            INSTALL_ANDROID_EXAMPLES="NO",  # If YES, build failed.
+            BUILD_LIST="core,imgcodecs,imgproc,java" # Added
         )
 
         if self.config.extra_modules_path is not None:
